@@ -29,7 +29,7 @@
 #if defined(WIN32) || defined(__CYGWIN__)
 #define USBMUXD_SOCKET_PORT 27015
 #else
-#define USBMUXD_SOCKET_FILE "/var/run/usbmuxd"
+#define USBMUXD_SOCKET_FILE "/data/usbmuxd"
 #endif
 
 #ifdef __cplusplus
